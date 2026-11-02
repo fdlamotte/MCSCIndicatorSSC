@@ -337,6 +337,8 @@ public:
 
     loadContacts();
     _public = addChannel("Public", PUBLIC_GROUP_PSK); // pre-configure Andy's public channel
+    addChannel("#jokes", "q+YQ1h3uUIwKwYeTw2xBww==");
+    addChannel("#test", "nNj88ipHMztZHZaiuEi3Pw==");
   }
 
   void savePrefs() {
